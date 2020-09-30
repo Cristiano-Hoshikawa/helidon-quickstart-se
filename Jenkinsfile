@@ -6,7 +6,7 @@ pipeline {
     }   
     /*
     environment {
-        registry = "iad.ocir.io/id4beafwqb9e/cristianohoshikawa"
+        registry = "iad.ocir.io/idavixsf5sbx/cristianohoshikawa"
         registryCredential = 'docker-credential'
         app = ''
     }
