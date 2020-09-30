@@ -24,7 +24,7 @@ pipeline {
                         $class: 'GitSCM',
                         doGenerateSubmoduleConfigurations: false,
                         userRemoteConfigs: [[
-                            url: 'https://github.com/hoshikawa2/helidon-quickstart-se.git'
+                            url: 'https://github.com/Cristiano-Hoshikawa/helidon-quickstart-se.git'
                           ]],
                         branches: [ [name: '*/master'] ]
                       ])
@@ -40,7 +40,7 @@ pipeline {
                         $class: 'GitSCM',
                         doGenerateSubmoduleConfigurations: false,
                         userRemoteConfigs: [[
-                            url: 'https://github.com/hoshikawa2/helidon-quickstart-se.git'
+                            url: 'https://github.com/Cristiano-Hoshikawa/helidon-quickstart-se.git'
                           ]],
                         branches: [ [name: '*/master'] ]
                       ])
