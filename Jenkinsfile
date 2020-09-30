@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-      maven 'Maven'
+      maven 'Maven-cris' 
       'org.jenkinsci.plugins.docker.commons.tools.DockerTool' 'docker'
     }   
     /*
