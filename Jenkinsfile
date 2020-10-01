@@ -28,7 +28,7 @@ pipeline {
                           ]],
                         branches: [ [name: '*/master'] ]
                       ])
-                    /* app = docker.build(registry + "/helidon-quickstart-se:latest")  */
+                    /* app = docker.build(registry + "/helidon-quickstart-se:latest") */
                     sh 'docker build -t iad.ocir.io/' + params.DOCKER_REPO + '/helidon-quickstart-se:latest --file target/Dockerfile .'
                 }
             }
